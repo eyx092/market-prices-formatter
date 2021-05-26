@@ -7,7 +7,7 @@ try:
 
   if emojis == 'y':
     print(":MysteryPickaxe: Mystery Pickaxe: $" + "{:,}".format(emerald_avg*12000))
-    print(":RadioactivePickaxe: Radioactive Pickaxe: $" + "{:,}".format(emerald_avg * 750))
+    print(":RadioactivePickaxe: Radioactive Pickaxe: $" + "{:,}".format(emerald_avg * 7500))
     print(":RainbowPickaxe: Rainbow Pickaxe & :MidasSword: Midas Sword: $" + "{:,}".format(emerald_avg * 5000))
     print(":Trident: Trident: $" + "{:,}".format(emerald_avg * 7000))
     print(":Enchant: Tier 1 Enchantments: $" + "{:,}".format(lapis_avg * 100))
