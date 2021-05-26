@@ -7,11 +7,12 @@ try:
 
   if emojis == 'y':
     print(":MysteryPickaxe: Mystery Pickaxe: $" + "{:,}".format(emerald_avg*12000))
-    print(":RadioactivePickaxe: Radioactive Pickaxe: $" + "{:,}".format(emerald_avg * 7500))
+    print(":RadioactivePickaxe: Radioactive Pickaxe: $" + "{:,}".format(emerald_avg * 750))
     print(":RainbowPickaxe: Rainbow Pickaxe & :MidasSword: Midas Sword: $" + "{:,}".format(emerald_avg * 5000))
     print(":Trident: Trident: $" + "{:,}".format(emerald_avg * 7000))
     print(":Enchant: Tier 1 Enchantments: $" + "{:,}".format(lapis_avg * 100))
-    print(":Dragon_Slayer: Dragon Slayer & :Enchant: Efficiency: $" + "{:,}".format(lapis_avg * 1000))
+    print(":Dragon_Slayer: Dragon Slayer: $" + "{:,}".format(lapis_avg * 500))
+    print(":Enchant: Efficiency: $" + "{:,}".format(lapis_avg * 750))
     print(":T5BoosterPickaxe: T5 Booster Pickaxe: $" + "{:,}".format(token_avg * 500))
     print(":T5boostersword: T5 Booster Sword & :t5boosteraxe: T5 Booster Axe: $" + "{:,}".format(token_avg * 400))
   else:
@@ -20,7 +21,8 @@ try:
     print("Rainbow Pickaxe & Midas Sword: $" + "{:,}".format(emerald_avg * 5000))
     print("Trident: $" + "{:,}".format(emerald_avg * 7000))
     print("Tier 1 Enchantments: $" + "{:,}".format(lapis_avg * 100))
-    print("Dragon Slayer & Efficiency: $" + "{:,}".format(lapis_avg * 1000))
+    print("Dragon Slayer: $" + "{:,}".format(lapis_avg * 500))
+    print("Efficiency: $" + "{:,}".format(lapis_avg * 750))
     print("T5 Booster Pickaxe: $" + "{:,}".format(token_avg * 500))
     print("T5 Booster Sword & T5 Booster Axe: $" + "{:,}".format(token_avg * 400))
 
